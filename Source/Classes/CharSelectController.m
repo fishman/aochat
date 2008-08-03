@@ -14,7 +14,7 @@
 
 - (void)awakeFromNib
 {
-	[window setCollectionBehavior:NSWindowCollectionBehaviorMoveToActiveSpace];
+	// [window setCollectionBehavior:NSWindowCollectionBehaviorMoveToActiveSpace];
 }
 
 - (void)setUsers:(NSArray *)charArray

@@ -40,7 +40,7 @@
 
 - (void)awakeFromNib
 {
-	[window setCollectionBehavior:NSWindowCollectionBehaviorMoveToActiveSpace];
+	// [window setCollectionBehavior:NSWindowCollectionBehaviorMoveToActiveSpace];
 }
 
 -(IBAction) hideWindow:(id)sender
