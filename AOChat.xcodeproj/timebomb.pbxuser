@@ -162,6 +162,14 @@
 			sepNavWindowFrame = "{{15, 118}, {1142, 655}}";
 		};
 	};
+	27A6D04C0CFB312000C9F3D2 /* AOMessageQueue.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1046, 1190}}";
+			sepNavSelRange = "{233, 0}";
+			sepNavVisRange = "{70, 584}";
+			sepNavWindowFrame = "{{476, 128}, {1105, 595}}";
+		};
+	};
 	27A6D04D0CFB312000C9F3D2 /* AppController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1083, 527}}";
@@ -290,6 +298,7 @@
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
 		scmConfiguration = {
+			repositoryName = "ao-tools";
 		};
 	};
 	27E6F51C0CFB19F500E9BADF /* Code sense */ = {
@@ -335,8 +344,23 @@
 		modificationTime = 228601447.274114;
 		state = 2;
 	};
+	27F161C70DA002A3004C5576 /* SourceListTableView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1046, 467}}";
+			sepNavSelRange = "{189, 47}";
+			sepNavVisRange = "{0, 244}";
+			sepNavWindowFrame = "{{15, 278}, {1105, 595}}";
+		};
+	};
+	27F161C80DA002A3004C5576 /* SourceListTableView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1046, 1736}}";
+			sepNavSelRange = "{1078, 0}";
+			sepNavVisRange = "{320, 1493}";
+			sepNavWindowFrame = "{{38, 257}, {1105, 595}}";
+		};
+	};
 	2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
-		activeArchitecture = i386;
 		activeBuildConfigurationName = Release;
 		activeExecutable = 27E6F5000CFB19D700E9BADF /* AOChat */;
 		activeTarget = 8D15AC270486D014006FF6A4 /* AOChat */;
@@ -440,7 +464,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					698,
+					90,
 					20,
 					48,
 					43,
@@ -491,8 +515,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 228602235;
-			PBXWorkspaceStateSaveDate = 228602235;
+			PBXPerProjectTemplateStateSaveDate = 239563377;
+			PBXWorkspaceStateSaveDate = 239563377;
 		};
 		sourceControlManager = 27E6F51B0CFB19F500E9BADF /* Source Control */;
 		userBookmarkGroup = 276F76130D9F011500A71CCC /* PBXBookmarkGroup */;

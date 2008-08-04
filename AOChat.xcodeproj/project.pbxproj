@@ -19,7 +19,6 @@
 		276F76E40D9F0F5E00A71CCC /* Delete_Pressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 276F76DD0D9F0F5E00A71CCC /* Delete_Pressed.tiff */; };
 		276F76E60D9F0F5E00A71CCC /* Add_Pressed.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 276F76DF0D9F0F5E00A71CCC /* Add_Pressed.tiff */; };
 		27813D760D9F35EF005C5187 /* ChatGroups.m in Sources */ = {isa = PBXBuildFile; fileRef = 27813D750D9F35EF005C5187 /* ChatGroups.m */; };
-		27813D9F0D9F3A26005C5187 /* Folder.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27813D9E0D9F3A26005C5187 /* Folder.tiff */; };
 		27A6D06B0CFB312000C9F3D2 /* AOChatBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A6D0490CFB312000C9F3D2 /* AOChatBinding.m */; };
 		27A6D06C0CFB312000C9F3D2 /* AOMessageQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A6D04C0CFB312000C9F3D2 /* AOMessageQueue.m */; };
 		27A6D06D0CFB312000C9F3D2 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A6D04E0CFB312000C9F3D2 /* AppController.m */; };
@@ -38,6 +37,7 @@
 		27A6D07A0CFB312000C9F3D2 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A6D06A0CFB312000C9F3D2 /* PreferencesController.m */; };
 		27A6D07F0CFB312E00C9F3D2 /* OgreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A6D07C0CFB312E00C9F3D2 /* OgreKit.framework */; };
 		27A6D0850CFB315400C9F3D2 /* OgreKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27A6D07C0CFB312E00C9F3D2 /* OgreKit.framework */; };
+		27E612AC0E47173600C82CC8 /* chat_disc.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 27E612AB0E47173600C82CC8 /* chat_disc.tiff */; };
 		27EC4F170CFC9A68003C041E /* available.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EC4F080CFC9A68003C041E /* available.png */; };
 		27EC4F180CFC9A68003C041E /* away.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EC4F090CFC9A68003C041E /* away.png */; };
 		27EC4F1B0CFC9A68003C041E /* idle.png in Resources */ = {isa = PBXBuildFile; fileRef = 27EC4F0C0CFC9A68003C041E /* idle.png */; };
@@ -99,7 +99,6 @@
 		276F76DF0D9F0F5E00A71CCC /* Add_Pressed.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Add_Pressed.tiff; sourceTree = "<group>"; };
 		27813D740D9F35EF005C5187 /* ChatGroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatGroups.h; sourceTree = "<group>"; };
 		27813D750D9F35EF005C5187 /* ChatGroups.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatGroups.m; sourceTree = "<group>"; };
-		27813D9E0D9F3A26005C5187 /* Folder.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Folder.tiff; sourceTree = "<group>"; };
 		27A6D0480CFB312000C9F3D2 /* AOChatBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOChatBinding.h; sourceTree = "<group>"; };
 		27A6D0490CFB312000C9F3D2 /* AOChatBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOChatBinding.m; sourceTree = "<group>"; };
 		27A6D04B0CFB312000C9F3D2 /* AOMessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOMessageQueue.h; sourceTree = "<group>"; };
@@ -134,6 +133,7 @@
 		27A6D06A0CFB312000C9F3D2 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
 		27A6D07C0CFB312E00C9F3D2 /* OgreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OgreKit.framework; path = Frameworks/OgreKit.framework; sourceTree = "<group>"; };
 		27A6D0810CFB313800C9F3D2 /* libaochat.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libaochat.2.0.0.dylib; sourceTree = "<group>"; };
+		27E612AB0E47173600C82CC8 /* chat_disc.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = chat_disc.tiff; sourceTree = "<group>"; };
 		27EC4F080CFC9A68003C041E /* available.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = available.png; sourceTree = "<group>"; };
 		27EC4F090CFC9A68003C041E /* away.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = away.png; sourceTree = "<group>"; };
 		27EC4F0C0CFC9A68003C041E /* idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = idle.png; sourceTree = "<group>"; };
@@ -307,6 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				27F162750DA02D18004C5576 /* SplitterHandle.tiff */,
+				27E612AB0E47173600C82CC8 /* chat_disc.tiff */,
 				27F162710DA02B94004C5576 /* BottomBar.tiff */,
 				276F76D90D9F0F5E00A71CCC /* DBListSplitViewBar.tiff */,
 				276F76DA0D9F0F5E00A71CCC /* Add_Disabled.tiff */,
@@ -314,7 +315,6 @@
 				276F76DC0D9F0F5E00A71CCC /* Delete.tiff */,
 				276F76DD0D9F0F5E00A71CCC /* Delete_Pressed.tiff */,
 				276F76DF0D9F0F5E00A71CCC /* Add_Pressed.tiff */,
-				27813D9E0D9F3A26005C5187 /* Folder.tiff */,
 				27EC4F070CFC9A68003C041E /* Friends */,
 				27EC4F100CFC9A68003C041E /* Info.png */,
 				27EC4F110CFC9A68003C041E /* Preferences */,
@@ -518,9 +518,9 @@
 				276F76E30D9F0F5E00A71CCC /* Delete.tiff in Resources */,
 				276F76E40D9F0F5E00A71CCC /* Delete_Pressed.tiff in Resources */,
 				276F76E60D9F0F5E00A71CCC /* Add_Pressed.tiff in Resources */,
-				27813D9F0D9F3A26005C5187 /* Folder.tiff in Resources */,
 				27F162720DA02B94004C5576 /* BottomBar.tiff in Resources */,
 				27F162760DA02D18004C5576 /* SplitterHandle.tiff in Resources */,
+				27E612AC0E47173600C82CC8 /* chat_disc.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,7 +678,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/**";
 			};
 			name = Debug;
@@ -693,7 +693,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/Frameworks/**";
 			};
 			name = Release;

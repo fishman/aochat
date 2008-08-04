@@ -33,7 +33,14 @@
     NSTableColumn *secondCol = [[self tableColumns] objectAtIndex:1];
     SourceListTextCell *theTextCell = [[SourceListTextCell alloc] init];
     [secondCol setDataCell:theTextCell];
-	[[secondCol dataCell] setFont:[NSFont labelFontOfSize:[NSFont smallSystemFontSize]]];
+	[[secondCol dataCell] setFont:[NSFont labelFontOfSize:[NSFont systemFontSize]]];
+    [theTextCell release];
+
+		/* Use our custom NSTextFieldCell subclass for the second column. */
+    NSTableColumn *thirdCol = [[self tableColumns] objectAtIndex:2];
+    theTextCell = [[SourceListTextCell alloc] init];
+    [thirdCol setDataCell:theTextCell];
+	[[thirdCol dataCell] setFont:[NSFont labelFontOfSize:[NSFont systemFontSize]]];
     [theTextCell release];
 }
 
