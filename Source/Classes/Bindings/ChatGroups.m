@@ -18,8 +18,12 @@
 - (id)init
 {
   if (self = [super init]) {
-    NSArray *keys = [NSArray arrayWithObjects:@"title", @"icon", @"index", nil];
-    NSArray *values = [NSArray arrayWithObjects:@"New Mailbox", [NSImage imageNamed:@"Folder"], [NSNumber numberWithInt:0], nil];
+    NSArray *keys = [NSArray arrayWithObjects:@"title", @"icon", @"index", @"count", nil];
+    NSArray *values = [NSArray arrayWithObjects:@"New Chat", 
+												[NSImage imageNamed:@"chat_disc"], 
+												[NSNumber numberWithInt:0], 
+												[NSNumber numberWithInt:0],
+												nil];
     properties = [[NSMutableDictionary alloc] initWithObjects:values forKeys:keys];
 
     groups = [[NSMutableArray alloc] init];
