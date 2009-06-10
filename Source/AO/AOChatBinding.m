@@ -96,23 +96,23 @@
 	{
 		case RK1:
 		NSLog(@"Resolving %s...\n", AOC_SERVER_RK1);
-		addr = aocMakeAddr(AOC_SERVER_RK1, 7012);
+		addr = aocMakeAddr(AOC_SERVER_RK1, 7101);
 		// addr = aocMakeAddr(AOC_SERVER_RK1, 7500);
 		break;
 
 		case RK2:
 		NSLog(@"Resolving %s...\n", AOC_SERVER_RK2);
-		addr = aocMakeAddr(AOC_SERVER_RK2, 7012);
+		addr = aocMakeAddr(AOC_SERVER_RK2, 7102);
 		break;
 		
 		default:
 		case RK3:
 		NSLog(@"Resolving %s...\n", AOC_SERVER_RK3);
-		addr = aocMakeAddr(AOC_SERVER_RK3, 7013);
+		addr = aocMakeAddr(AOC_SERVER_RK3, 7103);
 		break;
 		
 		case RK_TUNNEL:
-		addr = aocMakeAddr("localhost", 7012);
+		addr = aocMakeAddr("localhost", 7101);
 		break;
 	}
 
